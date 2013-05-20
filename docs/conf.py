@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# The Python/Django DevOp's Book of Wisdom and Recipes documentation build configuration file, created by
-# sphinx-quickstart on Mon May 20 16:32:12 2013.
+# Python-Django-DevOps documentation build configuration file, created by
+# sphinx-quickstart on Mon May 20 21:38:50 2013.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -25,7 +25,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = []
+extensions = ['sphinx.ext.todo']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'The Python/Django DevOp\'s Book of Wisdom and Recipes'
-copyright = u'2013, Daniele Procida'
+project = u'Python-Django-DevOps'
+copyright = u'2013, Daniele'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -167,7 +167,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ThePythonDjangoDevOpsBookofWisdomandRecipesdoc'
+htmlhelp_basename = 'Python-Django-DevOpsdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -186,8 +186,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'ThePythonDjangoDevOpsBookofWisdomandRecipes.tex', u'The Python/Django DevOp\'s Book of Wisdom and Recipes Documentation',
-   u'Daniele Procida', 'manual'),
+  ('index', 'Python-Django-DevOps.tex', u'Python-Django-DevOps Documentation',
+   u'Daniele', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -216,8 +216,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'thepythondjangodevopsbookofwisdomandrecipes', u'The Python/Django DevOp\'s Book of Wisdom and Recipes Documentation',
-     [u'Daniele Procida'], 1)
+    ('index', 'python-django-devops', u'Python-Django-DevOps Documentation',
+     [u'Daniele'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -230,8 +230,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'ThePythonDjangoDevOpsBookofWisdomandRecipes', u'The Python/Django DevOp\'s Book of Wisdom and Recipes Documentation',
-   u'Daniele Procida', 'ThePythonDjangoDevOpsBookofWisdomandRecipes', 'One line description of project.',
+  ('index', 'Python-Django-DevOps', u'Python-Django-DevOps Documentation',
+   u'Daniele', 'Python-Django-DevOps', 'One line description of project.',
    'Miscellaneous'),
 ]
 

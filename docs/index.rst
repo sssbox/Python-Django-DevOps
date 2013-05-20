@@ -1,36 +1,16 @@
-####################################################
-The Python/Django DevOp's Book of Wisdom and Recipes
-####################################################
+.. Python-Django-DevOps documentation master file, created by
+   sphinx-quickstart on Mon May 20 21:38:50 2013.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
+Welcome to Python-Django-DevOps's documentation!
+================================================
 
-The community
-=============
-
-* #django-devops on irc.freenode.net
-* http://groups.google.com/group/django-devops
-
-Wisdom
-======
-
-Comments, judgements and advice on different approaches, tools, methodologies
-etc.
-
-Recipes
-=======
-
-Step-by-step cookbook-style tutorials designed to take inexperienced users all
-the way to a working setup of whatever is being introduced.
-
-
-Contents
-========
+Contents:
 
 .. toctree::
-   :maxdepth: 1   
-   
-   wisdom/index
-   recipes/index
-   contributing
+   :maxdepth: 2
+
 
 
 Indices and tables

@@ -85,17 +85,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/ThePythonDjangoDevOpsBookofWisdomandRecipes.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/Python-Django-DevOps.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/ThePythonDjangoDevOpsBookofWisdomandRecipes.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/Python-Django-DevOps.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/ThePythonDjangoDevOpsBookofWisdomandRecipes"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/ThePythonDjangoDevOpsBookofWisdomandRecipes"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/Python-Django-DevOps"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/Python-Django-DevOps"
 	@echo "# devhelp"
 
 epub:
