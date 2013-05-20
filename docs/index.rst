@@ -2,6 +2,13 @@
 The Python/Django DevOp's Book of Wisdom and Recipes
 ####################################################
 
+
+The community
+=============
+
+* #django-devops on irc.freenode.net
+* http://groups.google.com/group/django-devops
+
 Wisdom
 ======
 
