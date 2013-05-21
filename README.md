@@ -26,5 +26,5 @@ Contribution guide
 <https://pythondjango-devops-book.readthedocs.org/en/latest/contributing.html>
 
 Feel free to contribute anything! The *Python/Django DevOp's Book of Wisdom
-and Recipes* is going to be much use if there are only apprentices and no
+and Recipes* is not going to be much use if there are only apprentices and no
 sorcerers adding material to it.
