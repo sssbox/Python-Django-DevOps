@@ -21,6 +21,12 @@ Recipes
 Step-by-step cookbook-style tutorials designed to take inexperienced users all
 the way to a working setup of whatever is being introduced.
 
+Contributing
+============
+
+Feel free to contribute anything! The *Python/Django DevOp's Book of Wisdom
+and Recipes* is not going to be much use if there are only apprentices and no
+sorcerers adding material to it.
 
 Contents
 ========
